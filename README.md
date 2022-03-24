@@ -1,2 +1,2 @@
 # bulma
-A quick startsand box for Bulma CSS clean framework
+A quick start sand box for Bulma CSS clean framework
