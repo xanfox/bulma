@@ -15,7 +15,7 @@
                 Hello World
             </h1>
             <p class="subtitle">
-                My first website with <strong>Bulma</strong>!
+                My first website with <strong>Bulmar</strong>!
             </p>
         </div>
     </section>
