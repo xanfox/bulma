@@ -1,25 +1,162 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <section class="section">
-        <div class="container">
-            <h1 class="title">
-                Bulma SandBox
-            </h1>
-            <p class="subtitle">
-                Everything you need to start with <strong>Bulma</strong>!
-            </p>
-        </div>
+      <div class="container">
+        <h1 class="title">
+          Bulma SandBox - With font awesome 4.7 icons <i class="fa fa-rss"></i>
+        </h1>
+        <p class="subtitle">
+          Everything you need to start with <strong>Bulma</strong>!
+        </p>
+      </div>
     </section>
-</body>
+    <hr />
 
+    <div class="container">
+      <!-- Title and subtitle -->
+      <div class="block">
+        <h1 class="title">Este é um título</h1>
+        <h2 class="subtitle">
+          este é um sub titulo que remove o espaço entre os dois
+        </h2>
+      </div>
+      <div class="block">
+        <h1 class="title is-1">Este é o parágrafão h1</h1>
+        <h2 class="title is-2">todo estilo é removido</h2>
+        <h3 class="title is-3">deve conter um contexto is-3 por ex</h3>
+        <h4 class="title is-4">there is 4</h4>
+        <h5 class="title is-5">here we go to 5</h5>
+        <h6 class="title is-6">and the last one</h6>
+      </div>
+      <hr />
+
+      <!-- content class -->
+      <div class="block">
+        <h1 class="title">Content class, is-small, is-medium, is-large</h1>
+        <h2 class="subtitle">
+          para ser usada com textos diversos, por padrão o Bulma remove o
+          padding bottom dos textos esse content adiciona esse pading novamente,
+          pode conter um contexto de tamanho de texto
+        </h2>
+        <p class="content is-small">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium,
+          facere?
+        </p>
+        <p class="content is-medium">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+          animi!
+        </p>
+        <p class="content is-large">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+          fugiat.
+        </p>
+      </div>
+      <hr />
+
+      <!-- buttons -->
+      <div class="block">
+        <h1 class="title">Buttons</h1>
+        <h2 class="subtitle">
+          Adiciona estilo a um botão ou link, esse estilo pode ter um contexto
+        </h2>
+        <p class="tag">sem estilo</p>
+
+        <button>butão</button> <br />
+        <p class="tag">com css aplicado</p>
+        <button class="button">butão com bulma</button> <br />
+        <h1 class="subtitle">bloco com bulma css</h1>
+        <div class="block">
+          <a class="button">Button</a>
+          <a class="button is-white">White</a>
+          <a class="button is-light">Light</a>
+          <a class="button is-dark">Dark</a>
+          <a class="button is-black">Black</a>
+          <a class="button is-link">Link</a>
+        </div>
+        <div class="block">
+          <a class="button is-primary">Primary</a>
+          <a class="button is-info">Info</a>
+          <a class="button is-success">Success</a>
+          <a class="button is-warning">Warning</a>
+          <a class="button is-danger">Danger</a>
+        </div>
+        <h2 class="subtitle">Tamanhos podem ser aplicados</h2>
+        <div class="block">
+          <a class="button is-primary is-small">Primary</a>
+          <a class="button is-info is-medium">Info</a>
+          <a class="button is-success is-large">Success</a>
+        </div>
+
+        <h2 class="subtitle">podem ficar outlined tbm</h2>
+        <div class="block">
+          <a class="button is-primary is-outlined">Primary</a>
+          <a class="button is-info is-outlined">Info</a>
+          <a class="button is-success is-outlined">Success</a>
+          <a class="button is-warning is-outlined">Warning</a>
+          <a class="button is-danger is-outlined">Danger</a>
+        </div>
+
+        <h2 class="subtitle">podem ficar is inverted tbm</h2>
+        <div class="block">
+          <a class="button is-primary is-inverted">Primary</a>
+          <a class="button is-info is-inverted">Info</a>
+          <a class="button is-success is-inverted">Success</a>
+          <a class="button is-warning is-inverted">Warning</a>
+          <a class="button is-danger is-inverted">Danger</a>
+        </div>
+
+        <h2 class="subtitle">pode add uns buttons state</h2>
+        <div class="block">
+          <a class="button is-primary is-hovered">Primary</a>
+          <a class="button is-info is-focused">Info</a>
+          <a class="button is-success is-active">Success</a>
+          <a class="button is-warning is-loading">Warning</a>
+          <a class="button is-danger" disabled>Danger</a>
+        </div>
+      </div>
+      <hr />
+      <!-- estreia a class box que cria uma caixa bem legal para o conteúdo -->
+
+      <div class="blocl">
+        <h1 class="title">box</h1>
+        <h2 class="subtitle">
+          cria uma box, um tipo de well ou card grande para colocar o conteúdo
+        </h2>
+        <div class="box">
+          <h1 class="title">Big Paragraph</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi,
+            quod.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- encerra a div container -->
+    <div class="box">
+      essa box tá fora do container veja só como o container alinha os elementos
+      quando a tela está menor
+    </div>
+
+    <!-- estreando outro container -->
+    <div class="container"></div>
+    <!-- finalizando container 2 -->
+  </body>
 </html>
